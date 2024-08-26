@@ -1,0 +1,32 @@
+{
+    "bert":{
+        "template-1": "[SENTENCE]. [KB] of [A] is a [MASK].",
+        "template-2": "[SENTENCE]. [KB] of '[A]' is a [MASK].",
+        "template-3": "[KB] of [A] is a [MASK].",
+        "template-4": "[KB] of '[A]' is a [MASK]."
+    },
+    "t5":{
+        "template-1": "[SENTENCE]. [KB] of [A] is a ?",
+        "template-2": "[SENTENCE]. [KB] of '[A]' is a ?",
+        "template-3": "[KB] of [A] is a ?",
+        "template-4": "[KB] of '[A]' is a ?"
+    },
+    "bart":{
+        "template-1": "[SENTENCE]. [KB] of [A] is a <mask> .",
+        "template-2": "[SENTENCE]. [KB] of '[A]' is a <mask> .",
+        "template-3": "[KB] of [A] is a <mask> .",
+        "template-4": "[KB] of '[A]' is a <mask> ."
+    },
+    "bloom": {
+        "template-1": "Perform a sentence completion with the following sentence, with no explaination, answer only:\nSentence: [A] is involved in the [KB], such as ",
+        "template-2": "Complete the sentence with an appropriate [KB], with no explaination, answer only:\nSentence: [A] is involved in the [KB], such as ",
+        "template-3": "Predict the [KB] for the given sentence:\nSentence, with no explaination, answer only: [A] is involved in the [KB], such as ",
+        "template-4": "Fill in the blank with a suitable [KB]:\nSentence, with no explaination, answer only: [A] is involved in the [KB], such as "
+    },
+    "llama": {
+        "template-1": "Complete the following sentence with the appropriate [KB], with no explaination, answer only:\nSentence: [A] is involved in the [KB], such as ___.\nAnswer:",
+        "template-2": "Fill in the blank with a suitable [KB], with no explaination, answer only: Sentence: [A] participates in the [KB], such as ___. Answer:",
+        "template-3": "Predict the [KB] involved in the following sentence, with no explaination, answer only:\nSentence: [A] is part of the [KB], such as ___.\nAnswer:",
+        "template-4": "Provide the [KB] to complete this sentence, with no explaination, answer only:\nSentence: [A] plays a role in the [KB], such as ___.\nAnswer:"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "bert":{
+        "template-1": "[SENTENCE]. [A] in medicine is a [MASK].",
+        "template-2": "[SENTENCE]. [A] in biomedicine is a [MASK].",
+        "template-3": "[SENTENCE]. '[A]' in medicine is a [MASK].",
+        "template-4": "[SENTENCE]. '[A]' in biomedicine is a [MASK].",
+        "template-5": "[A] in medicine is a [MASK].",
+        "template-6": "[A] in biomedicine is a [MASK].",
+        "template-7": "'[A]' in medicine is a [MASK].",
+        "template-8": "'[A]' in biomedicine is a [MASK]."
+    },
+    "t5":{
+        "template-1": "[SENTENCE]. [A] in medicine is a ?",
+        "template-2": "[SENTENCE]. [A] in biomedicine is a ?",
+        "template-3": "[SENTENCE]. '[A]' in medicine is a ?",
+        "template-4": "[SENTENCE]. '[A]' in biomedicine is a ?",
+        "template-5": "[A] in medicine is a ?",
+        "template-6": "[A] in biomedicine is a ?",
+        "template-7": "'[A]' in medicine is a ?",
+        "template-8": "'[A]' in biomedicine is a ?"
+    },
+    "bart":{
+        "template-1": "[SENTENCE]. [A] in medicine is a <mask> .",
+        "template-2": "[SENTENCE]. [A] in biomedicine is a <mask> .",
+        "template-3": "[SENTENCE]. '[A]' in medicine is a <mask> .",
+        "template-4": "[SENTENCE]. '[A]' in biomedicine is a <mask> .",
+        "template-5": "[A] in medicine is a <mask> .",
+        "template-6": "[A] in biomedicine is a <mask> .",
+        "template-7": "'[A]' in medicine is a <mask> .",
+        "template-8": "'[A]' in biomedicine is a <mask> ."
+    },
+    "gpt3": {
+        "template-1": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] in medicine is a ",
+        "template-2": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] in biomedicine is a ",
+        "template-3": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' in medicine is a ",
+        "template-4": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' in biomedicine is a ",
+        "template-5": "Perform a sentence completion on the following sentence:\nSentence: [A] in medicine is a ",
+        "template-6": "Perform a sentence completion on the following sentence:\nSentence: [A] in biomedicine is a ",
+        "template-7": "Perform a sentence completion on the following sentence:\nSentence: '[A]' in medicine is a ",
+        "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' in biomedicine is a "
+
+    },
+    "bloom": {
+        "template-1": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] in medicine is a",
+        "template-2": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] in biomedicine is a",
+        "template-3": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' in medicine is a",
+        "template-4": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' in biomedicine is a",
+        "template-5": "Perform a sentence completion on the following sentence:\nSentence: [A] in medicine is a",
+        "template-6": "Perform a sentence completion on the following sentence:\nSentence: [A] in biomedicine is a",
+        "template-7": "Perform a sentence completion on the following sentence:\nSentence: '[A]' in medicine is a",
+        "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' in biomedicine is a"
+
+    },
+    "llama": {
+        "template-1": "Perform a sentence completion on the following sentence: [SENTENCE]. [A] in medicine is a ___.\nThe answer is",
+        "template-2": "Perform a sentence completion on the following sentence: [SENTENCE]. [A] in biomedicine is a ___.\nThe answer is",
+        "template-3": "Perform a sentence completion on the following sentence: [SENTENCE]. '[A]' in medicine is a ___.\nThe answer is",
+        "template-4": "Perform a sentence completion on the following sentence: [SENTENCE]. '[A]' in biomedicine is a ___.\nThe answer is",
+        "template-5": "Perform a sentence completion on the following sentence: [A] in medicine is a ___.\nThe answer is",
+        "template-6": "Perform a sentence completion on the following sentence: [A] in biomedicine is a ___.\nThe answer is",
+        "template-7": "Perform a sentence completion on the following sentence: '[A]' in medicine is a ___.\nThe answer is",
+        "template-8": "Perform a sentence completion on the following sentence: '[A]' in biomedicine is a ___.\nThe answer is"
+    }
+}
