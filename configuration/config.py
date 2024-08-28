@@ -15,7 +15,7 @@ class BaseConfig:
         """
             Data configuration
         """
-        login(token="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")
+        login(token="")
 
         self.root_dir = "./datasets"
         self.parser = argparse.ArgumentParser()
